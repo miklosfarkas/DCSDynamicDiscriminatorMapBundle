@@ -12,7 +12,7 @@ class DoctrineEventListener
      */
     protected $mapping;
 
-    public function __construct(array $mapping)
+    public function __construct($mapping = null, $lazy_load = true)
     {
         $this->mapping = $mapping;
     }

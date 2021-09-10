@@ -21,7 +21,6 @@ class DCSDynamicDiscriminatorMapExtension extends Extension
     {
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
-
         $container->setParameter('dynamic_discriminator_map.mapping', $config['mapping']);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));

@@ -1,9 +1,9 @@
 {
-    "name": "damianociarla/dynamic-discriminator-map-bundle",
+    "name": "miklosfarkas/dynamic-discriminator-map-bundle",
     "description": "DCSDynamicDiscriminatorMapBundle simplifies the use of Doctrine Single Table Inheritance mapping strategy in Symfony2.",
     "type": "library",
     "keywords": [
-        "symfony2","doctrine","inheritance mapping","entity"
+        "symfony 5","doctrine","inheritance mapping","entity"
     ],
     "license": "MIT",
     "homepage": "https://github.com/miklosfarkas/DCSDynamicDiscriminatorMapBundle",
@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "symfony/symfony": ">=4.4|>=5.3",
+        "symfony/symfony": "^5.3",
         "doctrine/orm": ">=2.9",
         "doctrine/doctrine-bundle": ">=2.9"
     },

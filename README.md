@@ -1,7 +1,7 @@
 DynamicDiscriminatorMapBundle
 =============================
 
-DynamicDiscriminatorMapBundle simplifies the use of Doctrine Single Table and Class Table Inheritance mapping strategy in Symfony2
+DynamicDiscriminatorMapBundle simplifies the use of Doctrine Single Table and Class Table Inheritance mapping strategy in Symfony 5.3
 
 With this bundle you can adds dynamically all classes of a hierarchy to the options of DiscriminatorMap using a config file. This way you can apply the methodology of 'decoupling'
 
@@ -13,7 +13,7 @@ Add DynamicDiscriminatorMapBundle in your composer.json:
 
 	{
     	"require": {
-        	"damianociarla/dynamic-discriminator-map-bundle": "dev-master"
+        	"miklosfarkas/dynamic-discriminator-map-bundle": "dev-master"
     	}
 	}
 

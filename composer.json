@@ -21,8 +21,8 @@
     "require": {
         "php": ">=7.4",
         "symfony/symfony": "^5.3",
-        "doctrine/orm": ">=2.9",
-        "doctrine/doctrine-bundle": ">=2.9"
+        "doctrine/orm": ">=2.4",
+        "doctrine/doctrine-bundle": ">=2.4"
     },
     "autoload": {
         "psr-0": { "DCS\\DynamicDiscriminatorMapBundle": "" }
